@@ -4,7 +4,7 @@
 import glob
 from pathlib import Path
 
-files = glob.glob("/home/iregvd/org/bd/*.org")
+files = glob.glob("./org/*.org")
 
 with open('build.ninja', 'w') as ninja_file:
     ninja_file.write("""
@@ -15,7 +15,7 @@ rule org2md
     
     for f in files:
         path = Path(f)
-        output_file = f"content/posts/{path.with_suffix('.md').name}"
+        output_file = f"content/post/{path.with_suffix('.md').name}"
         ninja_file.write(f"""
 build {output_file}: org2md {path}
 """)
