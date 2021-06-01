@@ -1,20 +1,9 @@
 +++
 title = "Aprender complejidad"
 author = ["kepair"]
-date = 2021-03-26
-lastmod = 2021-05-30T22:35:03+02:00
-tags = ["hugo", "org"]
-categories = ["emacs"]
+date = 2021-03-26T10:45:00+01:00
+lastmod = 2021-06-01T12:49:38+02:00
 draft = false
-weight = 2001
-foo = "bar"
-baz = "zoo"
-alpha = 1
-beta = "two words"
-gamma = 10
-[menu.main]
-  identifier = "aprender-complejidad"
-  weight = 2001
 +++
 
 La complejidad aparece en todos los ámbitos de la vida. La funcion _logistic map_, la célula, o el juego go. Los sistemas complejos entrenan la mente frente a escenarios complejos, como la vida.

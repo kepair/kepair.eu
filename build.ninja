@@ -3,14 +3,12 @@ rule org2md
   command = emacs --batch -l ~/.emacs -l publish.el --eval "(jethro/publish \"$in\")"
   description = org2md $in
 
-build content/posts/202104041607-la_religion_humana.md: org2md /home/iregvd/org/bd/202104041607-la_religion_humana.org
+build content/post/aprender_complejidad.md: org2md org/aprender_complejidad.org
 
-build content/posts/202104021708-what_data_can_t_do_the_new_yorker.md: org2md /home/iregvd/org/bd/202104021708-what_data_can_t_do_the_new_yorker.org
+build content/post/go_el_juego.md: org2md org/go_el_juego.org
 
-build content/posts/202104021652-saber_medir_para_saber_obtener.md: org2md /home/iregvd/org/bd/202104021652-saber_medir_para_saber_obtener.org
+build content/post/la_religion_humana.md: org2md org/la_religion_humana.org
 
-build content/posts/en_que_estoy_pensando.md: org2md /home/iregvd/org/bd/en_que_estoy_pensando.org
+build content/post/saber_medir_para_saber_obtener.md: org2md org/saber_medir_para_saber_obtener.org
 
-build content/posts/202103281215-go_el_juego.md: org2md /home/iregvd/org/bd/202103281215-go_el_juego.org
-
-build content/posts/202103260945-aprender_complejidad.md: org2md /home/iregvd/org/bd/202103260945-aprender_complejidad.org
+build content/post/what_data_can_t_do_the_new_yorker.md: org2md org/what_data_can_t_do_the_new_yorker.org

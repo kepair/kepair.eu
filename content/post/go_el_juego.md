@@ -2,19 +2,8 @@
 title = "Go: El juego"
 author = ["kepair"]
 date = 2021-03-28T14:15:00+02:00
-lastmod = 2021-05-30T22:35:04+02:00
-tags = ["hugo", "org"]
-categories = ["emacs"]
+lastmod = 2021-06-01T12:49:38+02:00
 draft = false
-weight = 2001
-foo = "bar"
-baz = "zoo"
-alpha = 1
-beta = "two words"
-gamma = 10
-[menu.main]
-  identifier = "go-el-juego"
-  weight = 2001
 +++
 
 Como ejercicio para [Aprender complejidad]({{< relref "202103260945-aprender_complejidad" >}}), quiero dedicar un poco de tiempo a entender y mejorar en el juego de Go (como cuando dediqué un poco de tiempo a Brawlhala).
