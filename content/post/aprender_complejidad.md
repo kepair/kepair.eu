@@ -2,7 +2,7 @@
 title = "Aprender complejidad"
 author = ["kepair"]
 date = 2021-03-26T10:45:00+01:00
-lastmod = 2021-06-01T12:49:38+02:00
+lastmod = 2021-06-01T12:55:24+02:00
 draft = false
 +++
 

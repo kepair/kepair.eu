@@ -1,26 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://example.org/post/</loc>
-    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+    <loc>http://192.168.1.59/</loc>
+    <lastmod>2021-05-30T21:19:52+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/en_que_estoy_pensando/</loc>
+    <lastmod>2021-05-30T22:35:04+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/categories/</loc>
+    <lastmod>2021-05-30T22:35:04+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/categories/emacs/</loc>
+    <lastmod>2021-05-30T22:35:04+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/tags/hugo/</loc>
+    <lastmod>2021-05-30T22:35:04+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/tags/org/</loc>
+    <lastmod>2021-05-30T22:35:04+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/tags/</loc>
+    <lastmod>2021-05-30T22:35:04+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/post/la_religion_humana/</loc>
+    <lastmod>2021-06-01T12:49:38+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/post/</loc>
+    <lastmod>2021-06-01T12:55:24+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/post/what_data_can_t_do_the_new_yorker/</loc>
+    <lastmod>2021-06-01T12:55:24+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/post/saber_medir_para_saber_obtener/</loc>
+    <lastmod>2021-06-01T12:49:38+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/post/go_el_juego/</loc>
+    <lastmod>2021-06-01T12:55:24+02:00</lastmod>
+  </url><url>
+    <loc>http://192.168.1.59/post/aprender_complejidad/</loc>
+    <lastmod>2021-06-01T12:55:24+02:00</lastmod>
   </url>
-  
-  <url>
-    <loc>http://example.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
 </urlset>

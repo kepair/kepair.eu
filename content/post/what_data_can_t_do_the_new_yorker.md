@@ -2,7 +2,7 @@
 title = "What Data Can’t Do | The New Yorker"
 author = ["kepair"]
 date = 2021-04-02T19:08:00+02:00
-lastmod = 2021-06-01T12:49:38+02:00
+lastmod = 2021-06-01T12:55:24+02:00
 draft = false
 +++
 
@@ -10,6 +10,6 @@ The particular mistake that Tony Blair and his policy mavens made is common enou
 
 Esto se podria aplicar mucho con las KPI's en el trabajo.
 
-Cuando no admitimos que la realidad es [compleja]({{< relref "202103260945-aprender_complejidad" >}}), surgen problemas como estos.
+Cuando no admitimos que la realidad es [compleja]({{< relref "aprender_complejidad" >}}), surgen problemas como estos.
 
 Link: [What Data Can’t Do | The New Yorker](https://www.newyorker.com/magazine/2021/03/29/what-data-cant-do)

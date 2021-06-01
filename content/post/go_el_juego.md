@@ -2,11 +2,11 @@
 title = "Go: El juego"
 author = ["kepair"]
 date = 2021-03-28T14:15:00+02:00
-lastmod = 2021-06-01T12:49:38+02:00
+lastmod = 2021-06-01T12:55:24+02:00
 draft = false
 +++
 
-Como ejercicio para [Aprender complejidad]({{< relref "202103260945-aprender_complejidad" >}}), quiero dedicar un poco de tiempo a entender y mejorar en el juego de Go (como cuando dediqué un poco de tiempo a Brawlhala).
+Como ejercicio para [Aprender complejidad]({{< relref "aprender_complejidad" >}}), quiero dedicar un poco de tiempo a entender y mejorar en el juego de Go (como cuando dediqué un poco de tiempo a Brawlhala).
 
 
 ## Go {#go}
