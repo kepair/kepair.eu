@@ -2,16 +2,14 @@
 title = "Go: El juego"
 author = ["kepair"]
 date = 2021-03-28T14:15:00+02:00
-lastmod = 2021-06-01T12:55:24+02:00
+lastmod = 2021-07-02T18:53:11+02:00
 draft = false
 +++
 
-Como ejercicio para [Aprender complejidad]({{< relref "aprender_complejidad" >}}), quiero dedicar un poco de tiempo a entender y mejorar en el juego de Go (como cuando dediqué un poco de tiempo a Brawlhala).
+[Aprendemos jugando]({{< relref "aprendemos_jugando" >}})
 
 
 ## Go {#go}
-
-Muchas veces pierdo por una sola jugada.
 
 
 ## Estrategia {#estrategia}
@@ -25,7 +23,7 @@ Al principio de la partida se colocan piezas que marcarán los territorios y gru
 2.  Se establecen los lados
 3.  Se extienden hacia los lados, esquinas y centro
 
-    En el fuseki no se trata de reclamar el máximo terreno posible (poner sí o sí en las cuatro esquinas) sino crear posiciones fuertes para pelear después.
+    En el fuseki no se trata de reclamar el máximo terreno posible (colocar piedras sí o sí en las cuatro esquinas) sino crear posiciones fuertes para pelear después.
 
     Como crear enlaces fuertes cuando se colocan piedras muy lejos unas de otras?
 
@@ -33,18 +31,23 @@ Al principio de la partida se colocan piezas que marcarán los territorios y gru
 ## Conceptos {#conceptos}
 
 
+### Turnos {#turnos}
+
+En Go, cada jugador pone una piedra en cada turno, y todas las piedras tienen el mismo valor. Por esta razón, es muy importante ser _efectivo_ con las jugadas. Una piedra colocada sin pensar es un turno perdido y una piedra de ventaja para el contrario.
+
+Movimientos urgentes primero, movimientos importantes después. No dejes piedras en desventaja (excepto en los ataques). Controla las libertades de cada piedra/grupo, sus conexiones y puntos débiles.
+
+
 ### Territorios y grupos {#territorios-y-grupos}
 
-Hay dos maneras de conseguir puntos: territorios y grupos. Los territorios son mas grandes con espacio en blanco, pero cualquier ataque puede ser contenido. Los grupos _vivos_ son grupos que tienen dos ojos, haciendolos invulnerables.
+La manera de conseguir puntos en Go es creando grupos para controlar territorio.
 
-Ambos son mas eficientes en las esquinas que en el centro.
+Los grupos son mas eficientes en las esquinas que en el centro.
 
-Hay que ver que posibilidades hay de salvar/capturar un grupo.
+Hay que conocer las posibilidades que hay de salvar/capturar un grupo.
 Muchas veces pierdo mucho terreno y piedras por no haber visto lo obvio: que no hay manera de salvar un grupo.
 
-Los grupos en segunda línea por ejemplo pueden estar muertos fácilmente.
-
-Otra cosa, siempre asegura y no dejes piedras en desventaja que no estén atacando. Mira las libertades de cada piedra, sus conexiones y puntos débiles.
+Los grupos en segunda línea son muy arriesgados.
 
 Hay grupos pequeños que deben ser defendidos, sino su captura está asegurada colocando una piedra en el lugar correcto. Un ejemplo es la L de tres piedras en un lado del tablero.
 
@@ -53,13 +56,22 @@ Ojo con los grupos con pocos o ningún ojo, suelen ser los más fáciles de capt
 
 ### Vida y muerte {#vida-y-muerte}
 
+Un grupo está vivo cuando tiene 2 o más ojos.
 
-### Juego global, huego local {#juego-global-huego-local}
+Hay muchos casos donde un grupo no está ni vivo ni muerto. Esto es porque se podrían formar los ojos, pero el contrario podría evitar esto convirtiéndolo en un grupo muerto.
 
-Relacionado con fuseki, cada piedra tiene que tener sentido a nivel local y global, creando una forma sólida.
+
+### Juego global, juego local {#juego-global-juego-local}
+
+Relacionado con fuseki, cada piedra tiene que tener sentido a nivel local y global, creando una forma sólida (y eficiente).
 
 Cuidado con jugar localmente y acabar creando grupos muertos.
 
 A veces se puede perder por una jugada que tiene sentido localmente pero no globalmente.
 
-A veces es porque estoy completamente enfocado en la jugada local y no veo que a otro nivel estoy siendo muy vulnerable. [como aquí](https://online-go.com/game/32749450).
+A veces ocurre que estoy completamente enfocado en la jugada local y no veo que a nivel global estoy siendo muy vulnerable. [como aquí](https://online-go.com/game/32749450).
+
+
+## Recursos {#recursos}
+
+[AlphaGo - The Movie | Full Documentary - YouTube](https://youtu.be/WXuK6gekU1Y)

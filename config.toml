@@ -1,4 +1,4 @@
-baseURL = "http://192.168.1.59/"
+baseURL = "https://kepair.eu/"
 languageCode = "es-e"
 title = "Notas de Kepair"
 theme="cortex"

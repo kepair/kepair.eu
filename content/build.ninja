@@ -1,0 +1,4 @@
+
+rule org2md
+  command = emacs --batch -l ~/.emacs -l publish.el --eval "(jethro/publish \"$in\")"
+  description = org2md $in

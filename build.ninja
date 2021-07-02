@@ -3,12 +3,56 @@ rule org2md
   command = emacs --batch -l ~/.emacs -l publish.el --eval "(jethro/publish \"$in\")"
   description = org2md $in
 
-build content/post/aprender_complejidad.md: org2md org/aprender_complejidad.org
+build content/post/aprendemos_jugando.md: org2md org/aprendemos_jugando.org
 
-build content/post/go_el_juego.md: org2md org/go_el_juego.org
+build content/post/la_vida_es_compleja.md: org2md org/la_vida_es_compleja.org
 
-build content/post/la_religion_humana.md: org2md org/la_religion_humana.org
+build content/post/la_realidad.md: org2md org/la_realidad.org
+
+build content/post/idea_cultural.md: org2md org/idea_cultural.org
+
+build content/post/teoria_del_caos.md: org2md org/teoria_del_caos.org
+
+build content/post/consciencia_y_autorreferencialidad.md: org2md org/consciencia_y_autorreferencialidad.org
+
+build content/post/deconstruir_la_sexualidad.md: org2md org/deconstruir_la_sexualidad.org
+
+build content/post/don_t_fight_flight_or_freeze_your_body_and_emotions.md: org2md org/don_t_fight_flight_or_freeze_your_body_and_emotions.org
+
+build content/post/el_razonamiento_es_colectivo.md: org2md org/el_razonamiento_es_colectivo.org
+
+build content/post/el_teorema_de_la_incompletitud.md: org2md org/el_teorema_de_la_incompletitud.org
+
+build content/post/empresas_vs_estados.md: org2md org/empresas_vs_estados.org
+
+build content/post/geb.md: org2md org/geb.org
+
+build content/post/kokoro.md: org2md org/kokoro.org
+
+build content/post/la_creatividad_mejora_con_los_limites.md: org2md org/la_creatividad_mejora_con_los_limites.org
+
+build content/post/la_identidad.md: org2md org/la_identidad.org
+
+build content/post/la_nueva_esclavitud.md: org2md org/la_nueva_esclavitud.org
+
+build content/post/las_empresas.md: org2md org/las_empresas.org
+
+build content/post/personalidad_juridica.md: org2md org/personalidad_juridica.org
+
+build content/post/red_star.md: org2md org/red_star.org
 
 build content/post/saber_medir_para_saber_obtener.md: org2md org/saber_medir_para_saber_obtener.org
 
+build content/post/sapiens.md: org2md org/sapiens.org
+
+build content/post/teoria_de_sistemas.md: org2md org/teoria_de_sistemas.org
+
+build content/post/the_history_of_the_decline_and_fall_of_the_roman_empire.md: org2md org/the_history_of_the_decline_and_fall_of_the_roman_empire.org
+
+build content/post/visiones_de_robot_serie_de_los_robots_1.md: org2md org/visiones_de_robot_serie_de_los_robots_1.org
+
+build content/post/yo_soy_yo_y_mi_pasado.md: org2md org/yo_soy_yo_y_mi_pasado.org
+
 build content/post/what_data_can_t_do_the_new_yorker.md: org2md org/what_data_can_t_do_the_new_yorker.org
+
+build content/post/go_el_juego.md: org2md org/go_el_juego.org

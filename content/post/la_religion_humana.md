@@ -2,8 +2,8 @@
 title = "La religion humana"
 author = ["kepair"]
 date = 2021-04-04T18:07:00+02:00
-lastmod = 2021-06-01T12:49:38+02:00
-draft = false
+lastmod = 2021-06-04T18:52:11+02:00
+draft = true
 +++
 
 La religion es una herramienta del hombre. El hombre, sin tener idea de psicologia, filosofia,... crea unas pautas de vida que mejoran la supervivencia de un grupo.
